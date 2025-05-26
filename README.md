@@ -1,7 +1,7 @@
 # dotfiles
 basic dotfiles
 
-```bash
+```
 git clone --separate-git-dir=$HOME/.myconf https://github.com/bobwood/dotfiles.git $HOME/myconf-tmp
 rsync -rv --exclude '.git' $HOME/myconf-tmp/ $HOME/
 rm -r $HOME/myconf-tmp/
